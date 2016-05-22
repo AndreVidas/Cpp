@@ -4,6 +4,7 @@ using namespace std;
 
 class Stack{
 private:
+	// initialize member variables
 	int arr[10];
 	int stackLength;
 
