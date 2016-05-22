@@ -36,7 +36,7 @@ public:
 		} else{
 			int value = arr[stackLength-1];
 			arr[stackLength] = 0;
-			stackLength = stackLength - 1; 
+			stackLength -= 1; 
 			return value;
 		}
 	}
