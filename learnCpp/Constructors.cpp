@@ -9,8 +9,8 @@ private:
 	int m_denominator;
 
 public:
-	// default constructor
 	/*
+	// default constructor
 	Fraction(){
 		m_numerator = 0;
 		m_denominator = 1;
@@ -24,6 +24,7 @@ public:
 		m_denominator = denominator;
 	}
 
+
 	int getNumerator() {return m_numerator; }
 	int getDenominator() {return m_denominator; }
 	double getValue() {return static_cast<double>(m_numerator) / m_denominator; }
@@ -31,7 +32,7 @@ public:
 
 int main(){
 	int x(5);
-	Fraction fiveThirds {};
+	Fraction fiveThirds;
 	cout << fiveThirds.getNumerator() << endl;
 	cout << fiveThirds.getDenominator() << endl;
 	cout << fiveThirds.getValue() << endl;
